@@ -942,9 +942,6 @@ color: var(--subtle-text-color);
   justify-content: start;
 }
 @media screen and (max-width: 767px){
-   .body {
-    background-color: yellow;
-  }
   .menu {
     display: none;
   }
@@ -952,8 +949,6 @@ color: var(--subtle-text-color);
 display: none;
   }
 }
-
-
 
 
 
