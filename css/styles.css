@@ -356,8 +356,96 @@ nav > a:hover {
 .sm-icon {
   fill: var(--light-color);
 }
-/*SECTION_FIVE*/
 
+/*SECTION_FIVE*/
+.section-five {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.customers {
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--dark-color);
+  margin-bottom: 72px;
+  text-align: center;
+}
+.clients-list {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+.customer-logo {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.customer-link {
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--subtle-text-color);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--subtle-text-color);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: currentColor;
+}
+
+.customer-link:hover {
+  border-color: var(--pressed-state-color);
+  color: var(--pressed-state-color);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.customer-link:focus {
+  border-color: var(--pressed-state-color);
+  color: var(--pressed-state-color);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.customer-icon {
+  fill: currentColor;
+}
+
+/*FOOTER*/
+.footer {
+  background-color: var(--dark-color);
+  padding: 100px 0;
+}
+.footer-flex {
+  display: flex;
+  align-items: baseline;
+}
+.footer-first-subcontainer {
+  margin-right: 120px;
+}
+.footerlink {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.footerspan {
+  color: var(--light-color);
+}
+.footer-paragraph {
+  color: var(--light-color);
+  letter-spacing: 0.02em;
+  max-width: 264px;
+}
+.sm-footer-p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white-background-color);
+  margin-bottom: 16px;
+}
+.smfooterlist {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  list-style: none;
+}
 .portfoliobutton {
   color: var(--primary-brand-color);
   background-color: var(--light-color);
@@ -389,28 +477,10 @@ nav > a:hover {
   color: var(--text-color);
 }
 
-.footer {
-  background-color: var(--dark-color);
-  padding: 100px 0;
-}
-.footerspan {
-  color: var(--light-color);
-}
-
-.footer-paragraph {
-  color: var(--light-color);
-  letter-spacing: 0.02em;
-  max-width: 264px;
-}
-
 img {
   display: block;
 }
 
-.footerlink {
-  display: inline-block;
-  margin-bottom: 16px;
-}
 .section-one-portfolio {
   padding: 96px 0 120px 0;
 }
@@ -448,13 +518,6 @@ img {
   padding-right: 332px;
 }
 
-.smfooterlist {
-  display: flex;
-  justify-content: center;
-  gap: 16px;
-  list-style: none;
-}
-
 .footer-link {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -464,72 +527,6 @@ img {
   background-color: var(--success-color);
 }
 
-.section-five {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-.customers {
-  font-size: 36px;
-  line-height: 1.11;
-  color: var(--dark-color);
-  margin-bottom: 72px;
-  text-align: center;
-}
-.clients-list {
-  display: flex;
-  gap: 24px;
-  list-style: none;
-}
-.customer-logo {
-  width: calc((100% - 120px) / 6);
-  height: 88px;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.customer-link {
-  width: 100%;
-  height: 100%;
-  border: 1px solid var(--subtle-text-color);
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--subtle-text-color);
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.customer-link:hover {
-  border-color: var(--pressed-state-color);
-  color: var(--pressed-state-color);
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.customer-link:focus {
-  border-color: var(--pressed-state-color);
-  color: var(--pressed-state-color);
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.customer-icon {
-  fill: currentColor;
-}
-.customer-link {
-  fill: currentColor;
-}
-.sm-footer-p {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--white-background-color);
-  margin-bottom: 16px;
-}
-.footer-flex {
-  display: flex;
-  align-items: baseline;
-}
-.footer-first-subcontainer {
-  margin-right: 120px;
-}
 .portfoliobutton:hover,
 .portfoliobutton:focus,
 .portfoliobutton:visited {
@@ -551,20 +548,7 @@ img {
 .portfolio-img-link:focus .portfolio-overlay-text {
   transform: translateY(0%);
 }
-.modal {
-  position: absolute;
-  background: var(--modal-background-color);
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-  width: 408px;
-  min-height: 584px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 72px 24px 24px 24px;
-}
+
 .modal-p {
   font-weight: 500;
   font-size: 16px;
@@ -641,22 +625,6 @@ img {
 .close-button-svg {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.backdrop {
-  position: fixed;
-  inset: 0 0 auto;
-  width: 100%;
-  height: 100%;
-  background: rgba(46, 47, 66, 0.4);
-  opacity: 1;
-  pointer-events: all;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.is-hidden {
-  pointer-events: none;
-  visibility: hidden;
-  opacity: 0;
-}
 
 .portfolio-overlay {
   overflow: hidden;
@@ -695,7 +663,9 @@ img {
   color: var(--text-color);
   margin: 0;
 }
-
+.form-container {
+  padding-left: 80px;
+}
 .footer-form-p {
   margin-bottom: 16px;
   font-weight: 500;
@@ -708,9 +678,7 @@ img {
   display: flex;
   gap: 24px;
 }
-.form-container {
-  padding-left: 80px;
-}
+
 .form-label-input {
   width: 264px;
   height: 40px;
@@ -724,9 +692,6 @@ img {
   border-radius: 4px;
   color: var(--white-background-color);
   gap: 24px;
-}
-placeholder {
-  color: var(--white-background-color);
 }
 .subscribe-button {
   min-width: 165px;
@@ -748,7 +713,40 @@ placeholder {
 .subscribe-button-icon {
   margin-left: 16px;
 }
-
+placeholder {
+  color: var(--white-background-color);
+}
+/*MODAL*/
+.backdrop {
+  position: fixed;
+  inset: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  background: rgba(46, 47, 66, 0.4);
+  opacity: 1;
+  pointer-events: all;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.is-hidden {
+  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+}
+.modal {
+  position: absolute;
+  background: var(--modal-background-color);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  width: 408px;
+  min-height: 584px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 72px 24px 24px 24px;
+}
 .div-comment {
   margin-bottom: 16px;
 }
