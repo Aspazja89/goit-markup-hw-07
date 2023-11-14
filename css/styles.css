@@ -383,10 +383,18 @@ nav > a:hover {
   color: var(--dark-color);
   margin-bottom: 72px;
   text-align: center;
+  column-gap: 16px;
 }
 .clients-list {
   margin: 0 auto;
   list-style: none;
+  column-gap: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 72px;
+  justify-content: center;
+  margin: 0;
+  padding-left: 0;
 }
 .customer-logo {
   width: 190px;
