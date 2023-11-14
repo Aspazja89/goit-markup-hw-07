@@ -166,7 +166,6 @@ nav > a:hover {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/background.jpeg);
-  max-width: 428px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -381,7 +380,7 @@ nav > a:hover {
   list-style: none;
 }
 .customer-logo {
-  min-width: 190px;
+  width: 190px;
   height: 88px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -421,14 +420,11 @@ placeholder {
 .footer {
   background-color: var(--dark-color);
   padding: 100px 0;
-  max-width: 428px;
 }
 .footer-flex {
   display: flex;
   align-items: baseline;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  max-width: 428px;
+  margin: 0 auto 72px auto;
 }
 .footer-first-subcontainer {
   margin-right: 120px;
