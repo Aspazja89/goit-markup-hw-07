@@ -438,15 +438,18 @@ placeholder {
 }
 .footer {
   background-color: var(--dark-color);
-  padding: 100px 0;
+  padding: 96px 0;
 }
 .footer-flex {
   display: flex;
   align-items: baseline;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  max-width: 428px;
   margin: 0 auto 72px auto;
 }
 .footer-first-subcontainer {
-  margin-right: 120px;
+  margin: 0 auto 72px auto;
 }
 .footerlink {
   display: inline-block;
@@ -467,6 +470,8 @@ placeholder {
   letter-spacing: 0.02em;
   color: var(--white-background-color);
   margin-bottom: 16px;
+  text-align: center;
+  display: block;
 }
 .smfooterlist {
   display: flex;
