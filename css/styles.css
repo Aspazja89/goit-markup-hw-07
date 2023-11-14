@@ -99,6 +99,13 @@ nav > a:hover {
 }
 .list {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 72px;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
 }
 .menu {
   display: flex;
