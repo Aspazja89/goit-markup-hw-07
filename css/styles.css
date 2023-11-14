@@ -164,6 +164,9 @@ nav > a:hover {
 .address-link:visited {
   color: var(--pressed-state-color);
 }
+.mobile-address-li {
+  padding-bottom: 48px;
+}
 
 /*SECTION_ONE*/
 .first-section {
@@ -388,10 +391,10 @@ nav > a:hover {
 .clients-list {
   margin: 0 auto;
   list-style: none;
-  column-gap: 16px;
+  gap: 16px;
   display: flex;
   flex-wrap: wrap;
-  gap: 72px;
+
   justify-content: center;
   margin: 0;
   padding-left: 0;
@@ -888,9 +891,6 @@ img {
 
 @media screen and (max-width: 767px) {
   .menu {
-    display: none;
-  }
-  .address {
     display: none;
   }
 }
