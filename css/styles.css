@@ -391,6 +391,8 @@ nav > a:hover {
   height: 88px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  gap: 72px 24px;
+  margin: 0 auto;
 }
 .customer-link {
   width: 100%;
