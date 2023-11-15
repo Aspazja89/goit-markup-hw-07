@@ -920,21 +920,6 @@ img {
 =================================================
   TABLET
   👇
-  =========================================
-  body {
-    font-family: "Roboto", sans-serif;
-    color: var(--text-color);
-    background-color: var(--white-background-color);
-  }
-  .body {
-    font-family: "Roboto", sans-serif;
-    color: var(--text-color);
-    background-color: var(--white-background-color);
-    font-weight: Regular;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%;
-  }
 
   /*HEADER*/
   .headerhtml {
