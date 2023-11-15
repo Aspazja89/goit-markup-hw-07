@@ -921,32 +921,6 @@ img {
   TABLET
   👇
   =========================================
-  */
-  @media
-  screen
-  and
-  (min-width: 768px) {
-  /* cały kod */
-  :root {
-    --primary-brand-color: #4d5ae5;
-    --pressed-state-color: #404bbf;
-    --dark-color: #2e2f42;
-    --success-color: #31d0aa;
-    --text-color: #434455;
-    --subtle-text-color: #8e8f99;
-    --accent-color: #e7e9fc;
-    --light-color: #f4f4fd;
-    --modal-overlay-color: #2e2f4266;
-    --hero-background-color: #2e2f42b2;
-    --white-background-color: #ffffff;
-    --modal-background-color: #fcfcfc;
-  }
-  * {
-    margin: 0;
-    padding: 0;
-  }
-
-  /*MOBILE*/
   body {
     font-family: "Roboto", sans-serif;
     color: var(--text-color);
