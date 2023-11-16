@@ -707,6 +707,9 @@ placeholder {
   justify-content: center;
   fill: transparent;
 }
+.I-accept {
+  padding-left: 8px;
+}
 .checkbox-link {
   color: var(--primary-brand-color);
 }
