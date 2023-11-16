@@ -670,6 +670,7 @@ placeholder {
 .checkbox-link {
   color: var(--primary-brand-color);
 }
+
 .send-button {
   display: block;
   min-width: 169px;

@@ -59,6 +59,8 @@ body {
   position: absolute;
   top: 24px;
   right: 24px;
+  border: none;
+  background-color: #ffffff;
 }
 
 nav > a:hover {
@@ -462,6 +464,7 @@ placeholder {
 }
 .footerspan {
   color: var(--light-color);
+  margin: auto;
 }
 .footer-paragraph {
   color: var(--light-color);
