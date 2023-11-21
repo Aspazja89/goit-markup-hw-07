@@ -178,7 +178,7 @@ nav > a:hover {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-in-the-office-mobile.jpg);
+    url(../images/background-office-mobile.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -188,7 +188,7 @@ nav > a:hover {
 .motto {
   text-align: center;
   font-family: Roboto;
-  font-size: 56px;
+  font-size: 36px;
   letter-spacing: 0.02em;
   line-height: 1.07;
   color: var(--white-background-color);
