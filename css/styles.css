@@ -401,6 +401,7 @@ nav > a:hover {
   margin: 0;
   padding-left: 0;
 }
+
 .customer-logo {
   width: 190px;
   height: 88px;
@@ -921,4 +922,32 @@ img {
       ),
       url("../images/people-in-the-office-mobile.jpg");
   }
+}
+@media screen and (max-width: 767px) {
+  /* cały kod */
+  .mobile-customers {
+    width: 110px;
+    height: 56px;
+  }
+}
+=================================================
+  TABLET
+  👇
+  =========================================
+  */
+  @media
+  screen
+  and
+  (min-width: 768px) {
+  /* cały kod */
+}
+/* ================================================= NOT DESKTOP 👇 ========================================= */
+@media screen and (max-width: 1157px) {
+  .icon-features {
+    display: none;
+  }
+}
+/* ================================================= DESKTOP 👇 ========================================= */
+@media screen and (min-width: 1158px) {
+  /* co jest potrzebne dla desktopu */
 }
