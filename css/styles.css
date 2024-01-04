@@ -816,7 +816,7 @@
   }
   .list-portfolio {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     gap: 24px;
     margin-bottom: 72px;
   }
@@ -843,7 +843,10 @@
     border: 1px solid transparent;
   }
   /*SECTION_TWO_PORTFOLIO*/
-
+  .mobile-portfolio-image {
+    width: 396px;
+    height: 280px;
+  }
   .list-portfolio-two {
     display: flex;
     flex-wrap: wrap;
@@ -933,12 +936,9 @@
 }
 /*=================================================
   TABLET
-  👇
   =========================================
   */
 @media screen and (min-width: 768px) {
-  /* cały kod */
-
   body {
     font-family: "Roboto", sans-serif;
     color: var(--text-color);
