@@ -505,7 +505,6 @@ placeholder {
 .form-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 .footer-form-p {
   margin-bottom: 16px;
@@ -533,7 +532,7 @@ placeholder {
   border-radius: 4px;
   color: var(--white-background-color);
   gap: 24px;
-  width: 389px;
+  width: 264px;
 }
 .subscribe-button {
   width: 165px;
@@ -1021,6 +1020,7 @@ img {
   .footer-flex {
     gap: 72px 24px;
     max-width: 584px;
+    justify-content: left;
   }
   .footer-first-subcontainer {
     margin: 0;
@@ -1036,6 +1036,7 @@ img {
   }
   .footer-form {
     gap: 24px;
+    flex-direction: row;
   }
   .footer-label {
     width: 264px;
