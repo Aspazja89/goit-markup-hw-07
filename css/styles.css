@@ -75,7 +75,6 @@ nav > a:hover {
 .navhtml {
   display: flex;
   align-items: center;
-  padding-right: 332px;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -950,14 +949,13 @@ img {
   .navhtml {
     display: flex;
     align-items: center;
-    padding-right: 332px;
+    padding-right: 121px;
   }
   .container-header .menu {
     display: flex;
     flex-wrap: nowrap;
     gap: 40px;
     margin-top: 0;
-    padding-left: 120px;
   }
   .container-header .navlink {
     font-size: 16px;
