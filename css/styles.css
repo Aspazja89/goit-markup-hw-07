@@ -76,7 +76,6 @@ nav > a:hover {
   display: flex;
   align-items: center;
   padding-right: 332px;
-  padding-top: 25px;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -948,23 +947,25 @@ img {
   .container-header {
     height: 72px;
     max-width: 768px;
+    margin-left: 0px;
   }
   .navhtml {
-    align-items: center;
     display: flex;
-    margin: 0;
-    padding: 0;
+    align-items: center;
+    padding-right: 332px;
   }
   .container-header .menu {
     display: flex;
     flex-wrap: nowrap;
     gap: 40px;
+    margin-top: 0;
+    padding-left: 120px;
   }
   .container-header .navlink {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    padding: 0;
+    padding: 24px 0;
   }
   .container-header .address {
     display: flex;
