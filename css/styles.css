@@ -83,6 +83,7 @@ nav > a:hover {
   color: var(--primary-brand-color);
 }
 .link {
+  font-style: normal;
   text-decoration: none;
 }
 .link:hover,
@@ -933,7 +934,6 @@ img {
   .container-header {
     height: 72px;
     max-width: 768px;
-    margin-left: 0px;
   }
   .navhtml {
     display: flex;
@@ -966,6 +966,7 @@ img {
   .container-header .addresslist {
     gap: 12px;
   }
+
   .menu-toggle {
     display: none;
   }
