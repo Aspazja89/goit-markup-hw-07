@@ -84,7 +84,6 @@ nav > a:hover {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand-color);
-  margin-right: 76px;
 }
 .link {
   text-decoration: none;
@@ -103,6 +102,7 @@ nav > a:hover {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
+
 .list {
   list-style: none;
   display: flex;
@@ -280,6 +280,9 @@ nav > a:hover {
 .paragraph {
   font-size: 16px;
   letter-spacing: 0.02em;
+}
+.value-p {
+  font-weight: 500;
 }
 
 /*SECTION_THREE*/
@@ -553,6 +556,16 @@ placeholder {
 .subscribe-button-icon {
   margin-left: 16px;
 }
+.subscribe-button:hover,
+.subscribe-button:focus {
+  background-color: var(--pressed-state-color);
+  font-family: Roboto;
+  font-weight: Medium;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 4%;
+  cursor: pointer;
+}
 
 /*MODAL*/
 .backdrop {
@@ -796,15 +809,14 @@ placeholder {
   color: var(--primary-brand-color);
   font-size: 36px;
   font-weight: 700;
-  min-width: 353px;
 }
 
 .menu-address-li:first-child .address-link {
   color: var(--primary-brand-color);
 }
 .menu-social {
-  gap: 56px;
-  justify-content: start;
+  justify-content: space-between;
+  max-width: 328px;
 }
 /*PORTFOLIO*/
 
@@ -1039,7 +1051,8 @@ img {
     margin: 0;
   }
   .modal {
-    min-width: 408px;
+    width: 90%;
+    max-width: 408px;
   }
   @media screen and (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
@@ -1084,6 +1097,9 @@ img {
     letter-spacing: 0.02em;
     line-height: 1.2;
     color: var(--dark-color);
+  }
+  .value-p {
+    font-weight: 400;
   }
   .visually-hidden {
     position: absolute;
